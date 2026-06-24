@@ -1,3 +1,5 @@
+
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -40,3 +42,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 yarn.lock
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
