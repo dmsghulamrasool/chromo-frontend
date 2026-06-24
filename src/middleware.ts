@@ -35,7 +35,7 @@ export default async function middleware(request: NextRequest) {
     }
   );
 
-  // Check if user is authenticated /////////
+  // Check if user is authenticated 
   const {
     data: { user },
   } = await supabase.auth.getUser();
